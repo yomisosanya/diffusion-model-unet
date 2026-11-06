@@ -1,0 +1,14 @@
+# ignore the images
+datasets/nih-chest-xray/image*/*
+
+# ignore checkpoints
+checkpoints/*
+*.pth
+
+# don't ignore the placeholder
+!checkpoints/.gitkeep
+
+# ignore all images
+*.png
+*.jpg
+*.jpeg 
